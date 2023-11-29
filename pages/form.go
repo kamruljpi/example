@@ -1,15 +1,15 @@
 package pages
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	template2 "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/kamruljpi/go-admin/context"
+	"github.com/kamruljpi/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/modules/db"
+	"github.com/kamruljpi/go-admin/modules/language"
+	form2 "github.com/kamruljpi/go-admin/plugins/admin/modules/form"
+	template2 "github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/icon"
+	"github.com/kamruljpi/go-admin/template/types"
+	"github.com/kamruljpi/go-admin/template/types/form"
 )
 
 func GetFormContent(ctx *context.Context) (types.Panel, error) {

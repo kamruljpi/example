@@ -4,12 +4,12 @@ import (
 	"log"
 	"testing"
 
-	"github.com/GoAdminGroup/example/tables"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/tests"
-	"github.com/GoAdminGroup/go-admin/tests/common"
-	"github.com/GoAdminGroup/go-admin/tests/frameworks/gin"
-	"github.com/GoAdminGroup/go-admin/tests/web"
+	"github.com/kamruljpi/example/tables"
+	"github.com/kamruljpi/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/tests"
+	"github.com/kamruljpi/go-admin/tests/common"
+	"github.com/kamruljpi/go-admin/tests/frameworks/gin"
+	"github.com/kamruljpi/go-admin/tests/web"
 	"github.com/gavv/httpexpect"
 )
 

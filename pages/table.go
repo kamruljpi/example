@@ -2,14 +2,15 @@ package pages
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/paginator"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/action"
+
+	"github.com/kamruljpi/go-admin/context"
+	"github.com/kamruljpi/go-admin/modules/config"
+	"github.com/kamruljpi/go-admin/plugins/admin/modules/paginator"
+	"github.com/kamruljpi/go-admin/plugins/admin/modules/parameter"
+	"github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/icon"
+	"github.com/kamruljpi/go-admin/template/types"
+	"github.com/kamruljpi/go-admin/template/types/action"
 )
 
 func GetTableContent(ctx *context.Context) (types.Panel, error) {

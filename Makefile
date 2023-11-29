@@ -14,7 +14,7 @@ build:
 	CGO_ENABLED=0 GOOS=linux GOARCH=amd64 $(GOBUILD) -o ./build/$(BINARY_NAME) -v ./
 
 generate:
-	$(GOINSTALL) github.com/GoAdminGroup/go-admin/adm
+	$(GOINSTALL) github.com/kamruljpi/go-admin/adm
 	$(CLI) generate -c adm_config.ini
 
 test: black-box-test user-acceptance-test

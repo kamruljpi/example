@@ -9,17 +9,17 @@ import (
 	"os/signal"
 	"time"
 
-	_ "github.com/GoAdminGroup/go-admin/adapter/gin"               // web framework adapter
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite" // sql driver
-	_ "github.com/GoAdminGroup/themes/adminlte"                    // ui theme
+	_ "github.com/kamruljpi/go-admin/adapter/gin"               // web framework adapter
+	_ "github.com/kamruljpi/go-admin/modules/db/drivers/sqlite" // sql driver
+	_ "github.com/kamruljpi/themes/adminlte"                    // ui theme
 
-	"github.com/GoAdminGroup/example/models"
-	"github.com/GoAdminGroup/example/pages"
-	"github.com/GoAdminGroup/example/tables"
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
 	"github.com/gin-gonic/gin"
+	"github.com/kamruljpi/example/models"
+	"github.com/kamruljpi/example/pages"
+	"github.com/kamruljpi/example/tables"
+	"github.com/kamruljpi/go-admin/engine"
+	"github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/chartjs"
 )
 
 func main() {

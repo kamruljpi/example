@@ -1,6 +1,6 @@
 package tables
 
-import "github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+import "github.com/kamruljpi/go-admin/plugins/admin/modules/table"
 
 // generators is a map of table models.
 //

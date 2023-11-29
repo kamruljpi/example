@@ -3,19 +3,19 @@ package pages
 import (
 	"html/template"
 
-	"github.com/GoAdminGroup/example/models"
-	"github.com/GoAdminGroup/go-admin/context"
-	tmpl "github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/template/color"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/themes/adminlte/components/chart_legend"
-	"github.com/GoAdminGroup/themes/adminlte/components/description"
-	"github.com/GoAdminGroup/themes/adminlte/components/infobox"
-	"github.com/GoAdminGroup/themes/adminlte/components/productlist"
-	"github.com/GoAdminGroup/themes/adminlte/components/progress_group"
-	"github.com/GoAdminGroup/themes/adminlte/components/smallbox"
+	"github.com/kamruljpi/example/models"
+	"github.com/kamruljpi/go-admin/context"
+	tmpl "github.com/kamruljpi/go-admin/template"
+	"github.com/kamruljpi/go-admin/template/chartjs"
+	"github.com/kamruljpi/go-admin/template/color"
+	"github.com/kamruljpi/go-admin/template/icon"
+	"github.com/kamruljpi/go-admin/template/types"
+	"github.com/kamruljpi/themes/adminlte/components/chart_legend"
+	"github.com/kamruljpi/themes/adminlte/components/description"
+	"github.com/kamruljpi/themes/adminlte/components/infobox"
+	"github.com/kamruljpi/themes/adminlte/components/productlist"
+	"github.com/kamruljpi/themes/adminlte/components/progress_group"
+	"github.com/kamruljpi/themes/adminlte/components/smallbox"
 )
 
 // GetContent return the content of index page.

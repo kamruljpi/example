@@ -15,7 +15,7 @@ To use go module, you should set GO111MODULE=on first.
 ### step 1
 
 ```shell
-git clone https://github.com/GoAdminGroup/example.git
+git clone https://github.com/kamruljpi/example.git
 ```
 
 ### step 2
@@ -34,7 +34,7 @@ To use go path, you should set GO111MODULE=off first.
 ### step 1
 
 ```shell
-git clone https://github.com/GoAdminGroup/example.git
+git clone https://github.com/kamruljpi/example.git
 ```
 
 ### step 2
@@ -58,7 +58,7 @@ visit: [http://localhost:9033/admin](http://localhost:9033/admin)
 ### step 1
 
 ```shell
-git clone https://github.com/GoAdminGroup/example.git
+git clone https://github.com/kamruljpi/example.git
 ```
 
 ### step 2
